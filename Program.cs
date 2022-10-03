@@ -18,8 +18,10 @@ string? D = Console.ReadLine();
 
 string [] array = new string [4] { A, B, C, D};
 
+Console.WriteLine("");
 Console.WriteLine("Основной массив: ");
 Console.WriteLine(String.Join("; ", array));
+Console.WriteLine("");
 Console.WriteLine("Новый массив: ");
 
 string[] array2 = new string[array.Length];
